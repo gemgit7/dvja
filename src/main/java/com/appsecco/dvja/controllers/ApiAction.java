@@ -61,6 +61,7 @@ public class ApiAction extends BaseController {
             results.put("users", userList);
         }
 
+        // Some change
         return renderJSON(results);
     }
 
