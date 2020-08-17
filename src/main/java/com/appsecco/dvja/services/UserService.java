@@ -22,7 +22,7 @@ public class UserService {
     @PersistenceContext
     public void setEntityManager(EntityManager em) {
         this.entityManager = em;
-        // Test
+        // This is a change that the developer made
     }
     public EntityManager getEntityManager() { return this.entityManager; }
 
