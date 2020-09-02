@@ -13,6 +13,8 @@ public class Product {
     @GeneratedValue
     private Integer id;
 
+    // Add additional annotation
+    @MyAnnotation
     @Column(nullable = false)
     private String name;
 
