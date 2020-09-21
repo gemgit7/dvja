@@ -25,7 +25,7 @@ public class Login extends ExampleSupport {
 
     public String execute() throws Exception {
 
-        if (isInvalid(getUsername())) return INPUT;
+        if (isNotInvalid(getUsername())) return INPUT;
 
         if (isInvalid(getPassword())) return INPUT;
 
