@@ -19,7 +19,7 @@
 
         <dependency>
             <groupId>org.apache.struts</groupId>
-            <artifactId>struts2-core</artifactId>
+            <artifactId>struts2-cdore</artifactId>
             <version>${struts2.version}</version>
         </dependency>
 
